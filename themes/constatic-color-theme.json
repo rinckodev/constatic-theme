@@ -65,6 +65,10 @@
 		"button.hoverBackground": "#345EB1",
 		
 		"tab.activeBorderTop": "#345EB1",
+		
+		"statusBarItem.prominentBackground": "#00000000",
+		"statusBarItem.prominentHoverBackground": "#26272C",
+		"statusBar.focusBorder": "#00000000",
 
 		"editorHoverWidget.background": "#191a1ff2",
 		"statusBarItem.hoverBackground": "#26272C",
