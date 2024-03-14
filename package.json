@@ -1,0 +1,26 @@
+{
+  "name": "constatic-theme",
+  "displayName": "Constatic theme",
+  "description": "This dark theme is a nighttime paradise",
+  "version": "0.0.1",
+  "publisher": "rinckodev",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "url": "https://github.com/rinckodev/constatic-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Constatic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/constatic-color-theme.json"
+      }
+    ]
+  }
+}
