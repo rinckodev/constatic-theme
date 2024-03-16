@@ -2,12 +2,12 @@
   "name": "constatic-theme",
   "displayName": "Constatic theme",
   "description": "This dark theme is a nighttime paradise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "rinckodev",
   "engines": {
     "vscode": "^1.81.0"
   },
-  "icon": "./assets/icon.png",
+  "icon": "assets/icon.png",
   "categories": [
     "Themes"
   ],

@@ -9,7 +9,6 @@
 		"titleBar.activeBackground": "#17181C",
 		"titleBar.inactiveBackground": "#17181C",
 		
-		
 		"editorGroupHeader.tabsBackground": "#17181C",
 		"tab.inactiveBackground": "#00000000",
 		
@@ -18,10 +17,7 @@
 		"scrollbarSlider.background": "#3d414d75",
 		
 		"sideBar.background": "#17181C",
-		
-
 		"sideBarSectionHeader.background": "#202228",
-		
 		"statusBar.background": "#17181C",
 		"statusBarItem.remoteBackground": "#17181C",
 		"statusBar.border": "#26272C",
@@ -38,6 +34,10 @@
 		
 		"menu.background": "#1e2026de",
 		"quickInput.background": "#1e2026de",
+
+		"editorWidget.background": "#1e2026de",
+		"widget.border": "#26272C",
+		"editorWidget.resizeBorder": "#345EB1",
 		
 		"dropdown.background": "#17181C",
 		
@@ -79,8 +79,10 @@
 		"panel.background": "#191A1F",
 		"panel.border": "#26272C",
 		"panelTitle.activeBorder": "#345EB1",
-		"terminal.tab.activeBorder": "#345EB1"
+		"terminal.tab.activeBorder": "#345EB1",
 		
+		"editorLineNumber.foreground": "#7f85925e",
+		"editorLineNumber.activeForeground": "#7f8592",
 	},
 	"tokenColors":[
 		{
@@ -343,8 +345,7 @@
 		},
 		{
 			"settings": {
-				"foreground": "#545E7A",
-				"fontStyle": ""
+				"foreground": "#445176"
 			},
 			"scope":[
 				"comment",
