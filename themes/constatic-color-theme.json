@@ -71,7 +71,7 @@
 		"statusBar.focusBorder": "#00000000",
 
 		"editorHoverWidget.background": "#191a1ff2",
-		"statusBarItem.hoverBackground": "#26272C",
+		"statusBarItem.hoverBackground": "#26272ccb",
 		"editorHoverWidget.statusBarBackground": "#191A1Fde",
 		"editorHoverWidget.border": "#26272C",
 		"toolbar.hoverBackground": "#26272C",
@@ -83,6 +83,11 @@
 		
 		"editorLineNumber.foreground": "#7f85925e",
 		"editorLineNumber.activeForeground": "#7f8592",
+
+		"debugToolBar.background": "#1e2026de",
+		"debugToolBar.border": "#26272C",
+
+		"statusBar.debuggingBackground": "#208442"
 	},
 	"tokenColors":[
 		{
@@ -150,7 +155,10 @@
 				"entity.other.attribute-name.tsx",
 
 				// svg
-				"entity.other.attribute-name.localname.xml"
+				"entity.other.attribute-name.localname.xml",
+
+				// yaml
+				"entity.name.tag.yaml"
 			],
 		},
 		{
