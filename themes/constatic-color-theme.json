@@ -119,6 +119,7 @@
 				// markdown
 				"punctuation.definition.heading.markdown",
 				"markup.heading.markdown",
+				
 			]
 		},
 		{
@@ -136,7 +137,7 @@
 			"scope":[
 				"variable.other.constant",
 				"variable.other.enummember",
-				
+				"entity.name.label.ts"
 			],
 		},
 		{
@@ -220,7 +221,7 @@
 				
 				"entity.name.type",
 				"entity.name.function.java",
-				"storage.type.annotation"
+				"storage.type.annotation",
 			],
 		},
 		{
@@ -356,6 +357,7 @@
 				"foreground": "#445176"
 			},
 			"scope":[
+				
 				"comment",
 				"comment.line",
 				"comment.block",
