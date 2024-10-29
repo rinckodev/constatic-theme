@@ -1,8 +1,11 @@
 # Change Log
 
 
+## [0.0.5]
+- Fix jsx colors
+
 ## [0.0.4]
-- Add touple colors
+- Add tuple colors
 
 ## [0.0.3]
 - Add debugger colors

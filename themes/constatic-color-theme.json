@@ -153,7 +153,7 @@
 				"meta.object-literal.key",
 				
 				// web
-				"entity.other.attribute-name.tsx",
+				"entity.other.attribute-name",
 
 				// svg
 				"entity.other.attribute-name.localname.xml",
@@ -196,7 +196,7 @@
 
 				// web 
 				"entity.name.tag.html",
-				"entity.name.tag.tsx",
+				"entity.name.tag",
 				"meta.selector.css",
 
 				// markdown
@@ -210,6 +210,15 @@
 				// svg
 				"entity.name.tag.localname.xml"
 			],
+		},
+		{
+			"name": "Markdown - Link",
+			"scope": [
+				"string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
 		},
 		{
 			"settings": {
@@ -376,8 +385,8 @@
 				"punctuation.terminator.statement",
 				"punctuation.separator.key-value",
 				// web
-				"punctuation.definition.tag.begin.tsx",
-				"punctuation.definition.tag.end.tsx",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end",
 			],
 		},
 		{
@@ -396,15 +405,6 @@
 			"scope":[
 				"punctuation.definition.typeparameters",
 			],
-		},
-		{
-			"name": "Markdown - Link",
-			"scope": [
-				"string.other.link.title.markdown"
-			],
-			"settings": {
-				"foreground": "#82AAFF"
-			}
 		},
 		{
 			"name": "Markdown - Link Description",
@@ -496,6 +496,6 @@
 	"semanticTokenColors": {
 		"*.static": {
 			"foreground": "#FFC66D"
-		}
+		},
 	}
 }
