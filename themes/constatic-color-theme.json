@@ -17,12 +17,15 @@
 		"scrollbarSlider.background": "#3d414d75",
 		
 		"sideBar.background": "#17181C",
-		"sideBarSectionHeader.background": "#202228",
-		"statusBar.background": "#17181C",
-		"statusBarItem.remoteBackground": "#17181C",
-		"statusBar.border": "#26272C",
 		"sideBar.border": "#26272C",
-
+		
+		"sideBarSectionHeader.border": "#26272C",
+		"sideBarSectionHeader.background": "#17181C",
+		
+		"statusBar.background": "#17181C",
+		"statusBar.border": "#26272C",
+		"statusBarItem.remoteBackground": "#2449943e",
+		
 		"settings.focusedRowBackground": "#1B1D22",
 		"settings.rowHoverBackground": "#1B1D22",
 		"settings.textInputBackground": "#17181C",
@@ -33,7 +36,7 @@
 		"list.hoverBackground": "#24272D",
 		
 		"menu.background": "#1e2026de",
-		"quickInput.background": "#1e2026de",
+		"quickInput.background": "#1e2026a0",
 
 		"editorWidget.background": "#1e2026de",
 		"widget.border": "#26272C",
@@ -119,7 +122,10 @@
 				// markdown
 				"punctuation.definition.heading.markdown",
 				"markup.heading.markdown",
-				
+				"markup.heading.atx.1.mdx",
+				"markup.heading.atx.2.mdx",
+				"markup.heading.atx.3.mdx",
+
 			]
 		},
 		{
@@ -128,6 +134,8 @@
 			},
 			"scope":[
 				"keyword.other",
+				"support.constant.font-name.css",
+				
 			],
 		},
 		{
@@ -137,7 +145,7 @@
 			"scope":[
 				"variable.other.constant",
 				"variable.other.enummember",
-				"entity.name.label.ts"
+				"entity.name.label.ts",
 			],
 		},
 		{
@@ -197,12 +205,13 @@
 				// web 
 				"entity.name.tag.html",
 				"entity.name.tag",
-				"meta.selector.css",
 
 				// markdown
 				"entity.name.section.markdown",
 				"punctuation.definition.heading.markdown",
-
+				
+				"punctuation.definition.heading.mdx",
+				"entity.name.section.mdx",
 
 				// other
 				"variable.other.assignment.shell",
@@ -214,11 +223,22 @@
 		{
 			"name": "Markdown - Link",
 			"scope": [
-				"string.other.link.title.markdown"
+				"string.other.link.title.markdown",
+				"string.other.link.title.mdx",
+				"string.other.link.destination.mdx",
+				
 			],
 			"settings": {
 				"foreground": "#82AAFF"
 			}
+		},
+		{
+			"settings": {
+				"foreground": "#5aecad",
+			},
+			"scope":[
+				"support.variable.property.ts",
+			],
 		},
 		{
 			"settings": {
@@ -227,10 +247,14 @@
 			"scope":[
 				"support.class",
 				"support.type",
-				
 				"entity.name.type",
 				"entity.name.function.java",
 				"storage.type.annotation",
+
+				"meta.import.ts",
+				"source.ts",
+				
+				"entity.name.function.mdx",
 			],
 		},
 		{
@@ -245,6 +269,9 @@
 				"entity.other.attribute-name.id.css",
 				"entity.other.attribute-name.parent-selector.css",
 				"entity.other.attribute-name.pseudo-class.css",
+
+				"meta.selector.css",
+				"entity.other.keyframe-offset.css",
 
 				"constant.character.escape",
 				
@@ -261,7 +288,6 @@
 				"support.function",
 				"keyword.control.anchor.regexp",
 				"keyword.operator.or.regexp",
-				
 			],
 		},
 		{
@@ -275,6 +301,7 @@
 				
 				"punctuation.definition.group.regexp",
 				"punctuation.definition.character-class.regexp",
+				"support.constant.property-value.css",
 			],
 		},
 		{
@@ -309,25 +336,23 @@
 				"keyword.other.import",
 				"keyword.other.package",
 				"support.variable.property.importmeta",
+				
 
 				"keyword.operator.ternary",
-				"keyword.operator.logical"
+				"keyword.operator.logical",
 			],
 		},
 		{
 			"settings": {
 				"foreground": "#819b75",
 			},
-			"scope":[
-			],
+			"scope":[],
 		},
 		{
 			"settings": {
 				"foreground": "#4b7354",
 			},
-			"scope":[
-				
-			],
+			"scope":[],
 		},
 		{
 			"settings": {
@@ -335,6 +360,7 @@
 			},
 			"scope":[
 				"constant.numeric",
+				"entity.other.keyframe-offset.percentage.css"
 			],
 		},
 		{
@@ -353,11 +379,10 @@
 			},
 			"scope": [
 				// web
-
 				"meta.jsx.children.tsx",
+				"meta.jsx.children.js.jsx",
 
 				// markdown
-				
 				"meta.paragraph.markdown",
 			]
 		},
@@ -384,9 +409,14 @@
 
 				"punctuation.terminator.statement",
 				"punctuation.separator.key-value",
+				
+				"keyword.operator.assignment.ts",
 				// web
 				"punctuation.definition.tag.begin",
 				"punctuation.definition.tag.end",
+
+				"string.other.begin.code.fenced.mdx",
+				"string.other.end.code.fenced.mdx",
 			],
 		},
 		{
@@ -465,7 +495,7 @@
 		{
 			"name": "Markdown - Fenced Language",
 			"scope": [
-				"variable.language.fenced.markdown"
+				"variable.language.fenced.markdown",
 			],
 			"settings": {
 				"foreground": "#65737E"
@@ -484,7 +514,7 @@
 		{
 			"name": "Markup - Table",
 			"scope": [
-				"markup.table"
+				"markup.table",
 			],
 			"settings": {
 				"foreground": "#EEFFFF"

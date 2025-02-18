@@ -1,6 +1,10 @@
 # Change Log
 
 
+## [0.0.6]
+- Add mdx colors
+- Add some css colors
+
 ## [0.0.5]
 - Fix jsx colors
 
