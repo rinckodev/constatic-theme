@@ -1,8 +1,8 @@
 {
   "name": "constatic-theme",
-  "displayName": "Constatic theme",
-  "description": "This dark theme is a nighttime paradise",
-  "version": "0.0.6",
+  "displayName": "Constatic Theme",
+  "description": "A sleek and focused dark theme for night owls and developers who love deep contrasts.",
+  "version": "0.1.0",
   "publisher": "rinckodev",
   "engines": {
     "vscode": "^1.81.0"
@@ -12,8 +12,23 @@
     "Themes"
   ],
   "repository": {
+    "type": "git",
     "url": "https://github.com/rinckodev/constatic-theme"
   },
+  "homepage": "https://github.com/rinckodev/constatic-theme#readme",
+  "bugs": {
+    "url": "https://github.com/rinckodev/constatic-theme/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "theme", 
+    "dark theme", 
+    "vscode", 
+    "developer", 
+    "discord", 
+    "constatic",
+    "discord theme"
+  ],
   "contributes": {
     "themes": [
       {

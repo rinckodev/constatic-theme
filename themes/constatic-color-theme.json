@@ -324,7 +324,6 @@
 			"scope":[
 				"invalid",
 				"invalid.illegal",
-
 			],
 		},
 		{
@@ -336,8 +335,6 @@
 				"keyword.other.import",
 				"keyword.other.package",
 				"support.variable.property.importmeta",
-				
-
 				"keyword.operator.ternary",
 				"keyword.operator.logical",
 			],
