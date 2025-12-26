@@ -237,7 +237,6 @@
 				"foreground": "#5aecad",
 			},
 			"scope":[
-				"support.variable.property.ts",
 			],
 		},
 		{
@@ -255,6 +254,7 @@
 				"source.ts",
 				
 				"entity.name.function.mdx",
+				"punctuation.definition.annotation.java"
 			],
 		},
 		{
@@ -403,6 +403,9 @@
 				"meta",
 				"meta.block",
 				"meta.class",
+				"meta.class.java",
+				"punctuation.section.class.end.bracket.curly.java",
+				"punctuation.section.class.end",
 
 				"punctuation.terminator.statement",
 				"punctuation.separator.key-value",
