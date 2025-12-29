@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.1.3]
+- Organize scopes
+- Change markdown colors
+- Change dotenv colors
+
 ## [0.1.2]
 - Fix enum colors
 
