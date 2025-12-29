@@ -145,7 +145,7 @@
 			"scope":[
 				"variable.other.constant",
 				"variable.other.enummember",
-				"entity.name.label.ts",
+				"entity.name.label.ts"
 			],
 		},
 		{
@@ -159,6 +159,7 @@
 
 				"support.type.property-name",
 				"meta.object-literal.key",
+
 				
 				// web
 				"entity.other.attribute-name",
@@ -218,6 +219,8 @@
 
 				// svg
 				"entity.name.tag.localname.xml"
+
+				
 			],
 		},
 		{
@@ -226,6 +229,8 @@
 				"string.other.link.title.markdown",
 				"string.other.link.title.mdx",
 				"string.other.link.destination.mdx",
+
+				
 				
 			],
 			"settings": {
@@ -237,6 +242,7 @@
 				"foreground": "#5aecad",
 			},
 			"scope":[
+				
 			],
 		},
 		{
@@ -247,14 +253,16 @@
 				"support.class",
 				"support.type",
 				"entity.name.type",
-				"entity.name.function.java",
 				"storage.type.annotation",
-
+				
 				"meta.import.ts",
 				"source.ts",
 				
 				"entity.name.function.mdx",
-				"punctuation.definition.annotation.java"
+				
+				"entity.name.function.java",
+				"punctuation.definition.annotation.java",
+				"storage.type.annotation.java",
 			],
 		},
 		{
@@ -288,6 +296,7 @@
 				"support.function",
 				"keyword.control.anchor.regexp",
 				"keyword.operator.or.regexp",
+				"punctuation.decorator.ts",
 			],
 		},
 		{
@@ -310,6 +319,7 @@
 			},
 			"scope":[
 				"string.regexp",
+				
 				"constant.character.character-class.regexp",
 				"constant.other.character-class.set.regexp",
 				"constant.other.character-class.regexp",
@@ -421,6 +431,14 @@
 		},
 		{
 			"settings": {
+				"foreground": "#a8ceab",
+			},
+			"scope": [
+				"keyword.operator.increment-decrement.java"
+			]
+		},
+		{
+			"settings": {
 				"foreground": "#5f626a",
 				"fontStyle": "italic underline"
 			},
@@ -524,8 +542,7 @@
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"*.static": {
-			"foreground": "#FFC66D"
-		},
+		"method.static": "#FFC66D",
+		"parameter.readonly": "#4FC1FF"
 	}
 }

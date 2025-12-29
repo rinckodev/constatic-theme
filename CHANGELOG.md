@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.1.2]
+- Fix enum colors
+
+## [0.1.1]
+- Add java color theme
 
 ## [0.0.6]
 - Add mdx colors
